@@ -119,6 +119,8 @@ public class Mastermind {
 
     }
 
+
+    // CHOCO FUNCTION
     public void playSolver(String answer){
         // answer = generateNumber(numberOfVariables,sizeAnwers);
 
@@ -141,6 +143,7 @@ public class Mastermind {
 
     }
 
+    // CHOCO FUNCTION
     public void modelMastermind()
     {
         String answer = generateNumber(numberOfVariables,sizeAnwers);
@@ -183,6 +186,7 @@ public class Mastermind {
 
     }
 
+    //CHOCO FUNCTION
     public int[] parseInteger(String x)
     {
         int [] y = new int[x.length()];
@@ -194,6 +198,7 @@ public class Mastermind {
         return y;
     }
 
+    //CHOCO FUNCTION
     public int parseIntVar(IntVar x)
     {
         int cpt = 0;
@@ -271,6 +276,7 @@ public class Mastermind {
         return false;
     }
 
+    // CHOCO FUNCTION
     public variable numberOfCorrectAnswerModel(String guess, String answer,Model model)
     {
 
